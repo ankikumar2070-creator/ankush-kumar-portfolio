@@ -416,7 +416,37 @@ color:white;
 text-decoration:none;
 border-radius:6px;
 }
+/* Hero Section CSS */
+.hero{
+   ...
+}
 
+/* Skills CSS */
+.skill{
+   ...
+}
+
+/* Projects CSS */
+.project-card{
+   ...
+}
+
+/* ===== Navigation Bar ===== */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#0f172a;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+    z-index:1000;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+/* Remaining Navigation CSS */
 .certificate-card a:hover{
 background:#1d4ed8;
 }
