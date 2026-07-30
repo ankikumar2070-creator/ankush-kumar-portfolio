@@ -323,3 +323,47 @@ background:#f97316;
 width:80%;
 background:#0891b2;
 }
+/* ===========================
+   PROJECTS
+=========================== */
+
+.project-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.project-card{
+background:#fff;
+padding:25px;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+}
+
+.project-card h3{
+margin-bottom:15px;
+color:#2563eb;
+}
+
+.project-card p{
+margin-bottom:20px;
+}
+
+.project-card a{
+display:inline-block;
+text-decoration:none;
+background:#2563eb;
+color:#fff;
+padding:10px 20px;
+border-radius:6px;
+}
+
+.project-card a:hover{
+background:#1d4ed8;
+}
