@@ -204,3 +204,67 @@ justify-content:center;
 }
 
 }
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#0f172a;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:white;
+}
+
+.logo span{
+color:#38bdf8;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#38bdf8;
+}
+
+.hero{
+padding-top:140px;
+}
+
+@media(max-width:768px){
+
+.navbar{
+flex-direction:column;
+padding:15px;
+}
+
+.nav-links{
+margin-top:15px;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+}
