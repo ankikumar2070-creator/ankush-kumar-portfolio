@@ -367,3 +367,56 @@ border-radius:6px;
 .project-card a:hover{
 background:#1d4ed8;
 }
+/* ===========================
+   CERTIFICATES
+=========================== */
+
+.certificate-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.certificate-card{
+background:#fff;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+transition:.3s;
+text-align:center;
+}
+
+.certificate-card:hover{
+transform:translateY(-10px);
+}
+
+.certificate-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.certificate-card h3{
+margin:20px 0 10px;
+color:#2563eb;
+}
+
+.certificate-card p{
+padding:0 20px;
+margin-bottom:20px;
+}
+
+.certificate-card a{
+display:inline-block;
+margin-bottom:20px;
+padding:10px 20px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.certificate-card a:hover{
+background:#1d4ed8;
+}
